@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        // If using a specific Git or Docker tool configuration
-    }
     stages {
         stage('Build Docker Image') {
             steps {
